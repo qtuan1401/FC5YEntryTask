@@ -1,0 +1,86 @@
+.ToDoListMain {
+    .header {
+        input {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #FFF;
+        width: 275px;
+        }
+
+        button:hover {
+            background-color: #003399;
+            border: 2px solid #003399;
+            cursor: pointer;
+        }
+    }
+
+    .theList {
+        div {
+            color: #333;
+            background-color: rgba(255, 255, 255, .5);
+            height: 50px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            list-style: none;
+            width: 300px;
+            vertical-align: bottom;
+
+            td.completedTasks {
+                color: #333;
+                text-decoration: line-through;
+            }
+
+            input {
+                font-size: 16px;
+                color: #333;
+                background-color: rgba(255, 255, 255, .5);
+                height: 35px;
+                margin-bottom: 15px;
+                border-radius: 5px; 
+                list-style: none;
+                width: 300px;
+            }
+            
+            .edit {
+                width: 0px;
+                padding: 0px;
+                margin-bottom: 0px;
+                border-radius: 0px;
+            }
+    
+            i {
+                font-size: 25px;
+            }
+        }
+
+        td.completedTasks, td.unCompletedTasks {
+            width: 300px;
+            padding: 15px;
+        }
+    }
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(90, 223, 73, 0.5);
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 15px;
+    width: 150px;
+}
+
+button {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(252, 80, 80, 0.829);
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border-block-style: none;
+}
+
+ul.theList {
+    padding: 0
+}
